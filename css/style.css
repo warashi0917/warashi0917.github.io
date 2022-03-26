@@ -19,6 +19,8 @@ ul {
 
 .container {
   max-width: 960px;
+  padding: 0 32px;
+  margin: 0 auto;
 }
 
 /* header
@@ -30,8 +32,6 @@ header {
   text-align: center;
   align-items: center;
   height: 130px;
-  margin: 0 auto;
-  padding: 0 32px;
 }
 
 header h1 {
@@ -59,7 +59,7 @@ header li a:hover {
 ------------------------------------------------------------- */
 
 .main-visual {
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .main-visual img {
@@ -68,3 +68,36 @@ header li a:hover {
   height: 480px;
   object-fit: cover;
 }
+
+/* About
+------------------------------------------------------------ */
+#about {
+  margin-bottom: 120px;
+}
+
+#about .flex {
+  display: flex;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+#about .icon img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 60px;
+}
+
+#about .profile-text {
+  font-size: 0.875rem;
+  padding: 12px;
+  margin-left: 24px;
+}
+
+/* Works
+-------------------------------------------------------- */
