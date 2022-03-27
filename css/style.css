@@ -114,7 +114,7 @@ header li a:hover {
 
 #works .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 16px;
 }
 
@@ -228,7 +228,7 @@ header li a:hover {
   #about {
     margin-bottom: 60px;
   }
-  
+
   #about .flex{
     flex-direction: column;
   }
@@ -240,5 +240,38 @@ header li a:hover {
 
   #about .icon img {
     margin-right: 0;
+  }
+
+  /* Works */
+
+  #works {
+    margin-bottom: 60px;
+  }
+
+  #works p {
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+
+  .works-item {
+    margin-top: 16px;
+  }
+
+  .works-item:first-child {
+    margin-top: 0;
+  }
+
+  /* Contact */
+
+  #contact dl {
+    flex-direction: column;
+  }
+
+  #contact dt {
+    width: 100%;
+  }
+
+  #contact dd {
+    width: 100%;
   }
 }
